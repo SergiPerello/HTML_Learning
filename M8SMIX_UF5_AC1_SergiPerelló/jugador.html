@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soccer Manager</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Soccer Manager, Bienvenido al fútbol en estado puro">
+	<meta name="keywords" content="juego,futbol,soccer,manager">
+	<meta name="author" content="Sergi Perelló">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body style="font-family: verdana;">
+	<div id="contenido">
+
+<!-- MENU -->
+		<table id="menu">
+			<tr>
+				<td id="logo" colspan="3"><a href="links/index.html"><img id="img_logo" src="images/logo.png" alt="Logo"></a></td>
+				<td id="user" colspan="2"><img id="img_user" src="images/user.png" alt="User"><a href="links/user.php" style="color: #2EC366;">Ernesto Gómez Infante</a><a id="opciones_user">&#9776;</a></td>
+			</tr>
+			<tr>
+				<th class="opciones_menu" style="background-color:#5CB4D6;"><div><a href="links/menu/plantilla.php"><img class="imgs_menu" src="images/plantilla.png" alt="Plantilla"></a></div><div class="titulos_menu">plantilla</div></th>
+				<th class="opciones_menu" style="background-color:#3498DB;"><div><a href="links/menu/estrategia.php"><img class="imgs_menu" src="images/estrategia.png" alt="Estrategia"></a></div><div class="titulos_menu">estrategia</div></th>
+				<th class="opciones_menu" style="background-color:#2980B9;"><div><a href="links/menu/entrenamiento.php"><img class="imgs_menu" src="images/entrenamiento.png" alt="Entrenamiento"></a></div><div class="titulos_menu">entrenamiento</div></th>
+				<th class="opciones_menu" style="background-color:#34495E;"><div><a href="links/menu/traspasos.php"><img class="imgs_menu" src="images/traspasos.png" alt="Traspasos"></a></div><div class="titulos_menu">traspasos</div></th>
+				<th class="opciones_menu" style="background-color:#2C3E50;"><div><a href="links/menu/finanzas.php"><img class="imgs_menu" src="images/finanzas.png" alt="Finanzas"></a></div><div class="titulos_menu">finanzas</div></th>
+			</tr>
+		</table>
+
+<!-- FICHA DEL JUGADOR -->
+		<table id="ficha_jugador">
+			<thead>
+				<tr>
+					<th id="titulo_jugador" style="color:#ffffff;" colspan="5">Andrés Iniesta</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th rowspan="3"><img class="img_jugador" src="images/jugadores/jugador_80.png" alt="Andrés Iniesta"></th>
+					<th>Demarcación</th>
+					<td colspan="2">Centrocampista</td>
+					<th>Valoración</th>
+				</tr>
+				<tr>
+					<th>Nacionalidad</th>
+					<td>España</td>
+					<td><img id="img_pais" src="images/paises/pais_4.jpg" alt="España"></td>
+					<td rowspan="2" id="valoracion_jugador">89 <a href="#caracteristicas_jugador"><img id="img_more" src="images/more.png" alt="More"></a></td>
+				</tr>
+				<tr>
+					<th>Precio</th>
+					<td colspan="2">86.000.000 €</td>
+				</tr>
+			</tbody>
+		</table>
+
+<!-- INFORMACION Y REDES SOCIALES -->
+		<table id="tabla_informacion">
+			<tr>
+				<td style="width: 10%;"></td>
+				<td style="text-align: left;">
+					<ul style="color:#ffffff;" class="circle">
+						<li><a style="color:#ffffff;" href="links/condiciones.html">Condiciones de uso</a></li>
+						<li><a style="color:#ffffff;" href="links/conducta.html">Código de conducta</a></li>
+						<li><a style="color:#ffffff;" href="links/privacidad.html">Política de privacidad</a></li>
+						<li><a style="color:#ffffff;" href="links/mapa.html">Mapa Web</a></li>
+						<li><a style="color:#ffffff;" href="links/nosotros.html">Sobre nosotros</a></li>
+						<li><a style="color:#ffffff;" href="links/contacto.html">Contáctenos</a></li>
+					</ul>
+				</td>
+				<td style="width: 25%;">
+					<img class="redes_sociales" src="images/twitter.png" alt="Twitter">
+					<img class="redes_sociales" src="images/facebook.png" alt="Facebook">
+					<img class="redes_sociales" src="images/myspace.png" alt="Myspace">
+				</td>
+				<td style="width: 38%;">
+					<img class="partners" src="images/fifa.png" alt="Fifa">
+					<img class="partners" src="images/pegi.jpg" alt="Pegi">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" id="copyright">Designed and developed by Sergi Perelló © 2015-2018 Graphic Resources SL. All rights reserved</td>
+			</tr>
+		</table>
+
+<!-- CARACTERISTICAS DEL JUGADOR -->
+		<div style="width: 100%;">
+			<table id="caracteristicas_jugador">
+				<tr>
+					<td style="background-color:#2c3e50">
+						<div>
+							<img class="img_jugador" src="images/jugadores/jugador_80.png" alt="Andrés Iniesta">
+						</div>
+					</td>
+					<td style="width: 520px; background-color:#3183ba;">
+						<div class="filas_skills" style="width:84%; background-color:#2ecc71">
+							Ataque (84)
+						</div>
+						<div class="filas_skills" style="width:52%; background-color:#e67e22">
+							Defensa (52)
+						</div>
+						<div class="filas_skills" style="width:98%; background-color:#2ecc71">
+							Pase (98)
+						</div>
+						<div class="filas_skills" style="width:81%; background-color:#2ecc71">
+							Disparo (81)
+						</div>
+						<div class="filas_skills" style="width:92%; background-color:#2ecc71">
+							Regate (92)
+						</div>
+						<div class="filas_skills" style="width:56%; background-color:#e67e22">
+							Fuerza (56)
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div style="text-align: right;">
+			<a href="#contenido"><img id="img_arrow" src="images/arrow.png" alt="Flecha"></a>
+		</div>
+	</div>
+
+<br><br>
+<img style="width: 100%;" src="M8SMIX_UF5_AC1_AX2.png" alt="Imagen">
+</body>
+</html>

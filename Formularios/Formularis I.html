@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Formularis I</title>
+</head>
+<body>
+<form action="mailto:sergi.perello@mataro.epiaedu.cat" method="POST" enctype="text/plain">
+	Nombre: <input type="text" name="nombre" placeholder="Nombre" maxlength="15"><br><br>
+	Apellidos: <input type="text" name="apellidos" placeholder="Apellidos" maxlength="15"><br><br>
+	Sexo: <input type="radio" name="sexo" value="hombre">Hombre
+	<input type="radio" name="sexo" value="mujer"> Mujer<br><br>
+	DNI: <input type="text" placeholder="DNI" class="form-control" size="10" maxlength="9" name="DNI" requiredpattern="[0-9]{8}[A-Z]{1}"><br><br>
+	Correo: <input type="text" name="correo" placeholder="exemple@blai.com"><br><br>
+	<input type="checkbox" name="recibirInformacion" checked="yes"> Deseo recibir información sobre novedades y ofertas<br>
+	<input type="checkbox" name="condicionesGenerales"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos<br>
+	<input type="reset" value="Limpiar">               <input type="submit" value="Submit">
+</form>
+</body>
+</html>

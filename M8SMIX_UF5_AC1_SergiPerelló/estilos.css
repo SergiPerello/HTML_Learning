@@ -1,0 +1,140 @@
+/* MENU */
+#menu, #menu tr, #menu th, #menu td {
+	height: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto 0;
+}
+
+.titulos_menu {
+	color: white;
+	font-size: 100%;
+	padding:12px;
+}
+
+#logo {
+	background-color: #34495E;
+	width: 900px;
+	vertical-align: middle;
+}
+
+#user{
+	background-color: #34495E;
+	text-align: right;
+}
+
+#opciones_user{
+	color: white;
+	font-size: 20px;
+	margin: 0 0 0 6px;
+}
+
+.opciones_menu{
+	width: 400px;
+}
+
+#copyright{
+	font-size: 8px;
+	color: white;
+	text-align: right;
+	padding: 10px 8px;
+}
+/* FICHA DEL JUGADOR */
+#ficha_jugador{
+	width: 78%;
+	height: 100%;
+	background-color: #3D79AD;
+	border-collapse: separate;
+	border: 2px;
+	border-spacing: 18px;
+	margin: 40px auto;
+}
+
+#ficha_jugador th{
+	background-color: #2c3e50;
+	color: #03bf00;
+}
+
+#ficha_jugador td{
+	background-color: #ffffff;
+	border-spacing: 12px;
+}
+
+#titulo_jugador{
+	font-size: 180%;
+	padding: 25px;
+}
+
+#valoracion_jugador{
+	font-size: 40px;
+	color: #33404d;
+}
+
+/* INFORMACION Y REDES SOCIALES */
+#tabla_informacion{
+	width: 100%;
+	background-color: #545651;
+	text-align: center;
+}
+
+ul.circle{
+	list-style-type: circle;
+}
+
+.redes_sociales{
+	height: 40px;
+	margin: 0 10px;
+}
+
+.partners{
+	height: 100px;
+}
+
+/* CARACTERISTICAS DEL JUGADOR */
+#caracteristicas_jugador{
+	border-collapse: separate;
+	border-spacing: 25px;
+	margin: 40px auto 10px auto;
+	background-color: #3183ba;
+}
+
+.filas_skills{
+	text-align: right;
+	font-size: 14px;
+	color: white;
+	margin: 16px 10px 16px 0;
+}
+
+/* ESTILOS DE LAS IMAGENES */
+#img_logo{
+	width: 480px;
+}
+
+#img_user{
+	margin: auto;
+	width: 20px;
+	vertical-align: middle;
+}
+
+.imgs_menu{
+	height: 130px;
+	padding-top: 6px;
+}
+
+#img_pais{
+	width: 35px;
+	margin: 0 10px;
+}
+
+.img_jugador{
+	width: 150px;
+	margin: 5px 5px;
+}
+
+#img_more{
+	width: 15px;
+}
+
+#img_arrow{
+	width: 20px;
+}
